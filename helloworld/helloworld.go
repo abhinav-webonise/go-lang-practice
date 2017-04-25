@@ -117,8 +117,8 @@ func main() {
     case int:
       fmt.Println("I am int type")
     default:
-      fmt.Println("Don't know type %T\n", t) // returns string name
-      fmt.Printf("Don't know type %T\n", t) // returns string type
+      fmt.Println("Don't know type \n", t) // returns string name
+      fmt.Printf("Don't know type %T\n", t) // returns type of format
     }
   }
 
